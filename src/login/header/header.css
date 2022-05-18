@@ -1,0 +1,128 @@
+
+.logo-index{
+  
+    display: grid;
+    grid-template-areas:
+    "logotipo user "
+    ;
+    grid-template-columns: 45% 55%;
+   
+  
+   
+  }
+  .logo-index img{ 
+    grid-area: logotipo;
+    width: 90%;
+  
+    }
+  
+.user{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  justify-self: right;
+  align-self: center;
+  margin-right: 20px;
+
+   
+}
+.user-icon{
+  color: var(--violet);
+  font-size: 30px;
+  
+    
+}
+.arrow{
+    color: var(--green-secundario);
+    font-size: 20px;
+   margin-left: 34px;
+}
+
+.user p{
+  font-size: 0.8em;
+  font-weight: 700;
+  align-self:center;
+  }
+
+.barra{
+  background-color: rgba(69,46,128,0.3);
+  
+}
+.hamburguesa{
+    background-color: var(--violet);
+    color: white;
+    width: 20px;
+    margin: 15px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.hamburguesa i{
+  font-size: 20px;
+}
+
+.linea-proof{
+  width: 760px; 
+  height: 15px; 
+  background: var(--violet);
+
+}
+
+@media screen and (min-width:768px) {
+  .logo-index{
+    grid-template-columns: 20% 80%;
+  }
+  .logo-index img{ 
+    width: 180%;
+  }
+  .user{
+    justify-self: right;
+    align-self: center;
+  
+  }
+  .user-icon{
+    font-size: 40px;
+    margin-right: 13px;
+   
+  }
+  .arrow{
+    font-size: 30px;
+  }
+  .user p{
+    font-size: 1em;
+  
+    }
+    .hamburguesa{
+      margin: 20px;
+      padding: 12px;
+      border-radius: 10px;
+  }
+  .hamburguesa i{
+    font-size: 22px;
+  }
+  .linea-proof{
+    width: 1000px; 
+  }
+}
+
+@media screen and (min-width:1024px) {
+
+  .logo-index img{ 
+    width: 140%;
+  }
+  .linea-proof{
+    width: 1330px; 
+  }
+
+}
+
+@media screen and (min-width:1440px) {
+  .logo-index img{ 
+    width: 80%;
+  }
+  .linea{
+    width: 190%;
+  }
+  .linea-proof{
+    width: 1920px; 
+  }
+
+}
