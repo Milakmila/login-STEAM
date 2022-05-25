@@ -1,0 +1,29 @@
+/*Dashboard*/
+
+.today{
+    grid-area: today;
+    max-width: 60%;
+    border: 6px solid var(--violet);
+    border-radius: 20px;
+}
+.today img{
+    max-width: 80%;
+    border-radius: 25px;
+}
+.today h2{
+    margin: 5%;
+    text-align: left;
+    font-weight: 600;  
+    font-size: 1.3em;
+
+}
+.today h3{
+    font-size: 1.3em;
+}
+.today p{
+    margin: 4%;
+}
+
+@media screen and (min-width:768px) {
+
+}

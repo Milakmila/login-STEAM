@@ -1,0 +1,107 @@
+:root{
+    --dark-color:black;
+    --white-color:white;
+    --violet: rgb(69,45,128);
+    --green-principal:rgb(76,137,42);
+    --green-secundario: rgb(146,204,2);
+    --yellow: rgb(255,185,0);
+    --blue-dark: rgb(38,39,59);
+    --grey-color: rgb(196,196,196); 
+   
+    
+}
+.today{
+    text-align: center;
+    grid-area: today;
+    max-width: 60%;
+    border: 6px solid var(--violet);
+    border-radius: 20px;
+}
+.today img{
+    max-width: 80%;
+    border-radius: 25px;
+}
+.today h2{
+    margin: 5%;
+    text-align: left;
+    font-weight: 600;  
+    font-size: 1.3em;
+
+}
+.today h3{
+    font-size: 1.3em;
+}
+.today p{
+    margin: 4%;
+}
+
+
+.to-do{
+    grid-area: to-do;
+    border: 6px solid var(--green-principal);
+    border-radius: 20px;
+    padding: 10px;
+ 
+}
+.to-do h2{
+    font-weight: 600;
+    color: #01613B;
+}
+.todo-ul{
+    cursor: pointer;
+    list-style-type:none ;
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+    
+}
+.todo-ul li{
+    font-size: 0.9em;
+    border-bottom: 2px dotted var(--green-principal);
+    margin-bottom: 8%;
+
+}
+
+
+.PriorityClass{
+    grid-area:priority ;
+    display: grid;
+    grid-template-areas: 
+    "title"
+    "class-one"
+    "class-two"
+    ;
+   
+}
+.PriorityClass h2{
+    grid-area: title;
+    text-align: center;
+    color: #01613B;
+    font-weight: 600;
+}
+.PriorityClass h3{
+    color: #01613B;
+}
+.class-four{
+    grid-area: class-one;
+}
+.class-one{
+    grid-area: class-two;
+}
+
+.class img{
+    width: 60%;
+    border-radius: 10px;
+    border: 6px solid var(--green-secundario);
+   
+}
+
+.class > *{
+    text-align: center;
+
+ }
+ 
+
+ @media screen and (min-width:768px) {
+
+ }

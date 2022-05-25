@@ -1,45 +1,43 @@
 import './Navbar.css'
-
+import { Link } from 'react-router-dom'
 function Navbar(){
 return(
     <nav>
     <ul id="desplegable">
     <li>
-    <a href="../../../dashboard.html" >
-    
+    <Link to="/dashboard">
       <span><i class="fa-solid fa-house icons"></i>
       <h3>Home</h3>
       </span>
-    </a>
+    </Link>
   </li>
   <li>
-    <a href="../../../dashboard.html" >
+    <Link to="/calendar">
       <span> <i class="fa-solid fa-calendar icons"></i>
       <h3>Calendario</h3>
       </span>
-    </a>
+    </Link>
   </li>
   <li>
-    <a href="../../../dashboard.html">
+    <Link to="/courses">
       <span> <i class="fa-solid fa-book icons"></i> 
       <h3>Cursos</h3>
       </span>
-
-    </a>
+    </Link>
   </li>
   <li>
-    <a href="../../../dashboard.html">
+    <Link to="/score">
       <span> <i class="fa-solid fa-medal icons" ></i>
       <h3>Notas</h3>
       </span>
-    </a>
+    </Link>
   </li>
   <li>
-    <a href="../../../dashboard.html">
+    <Link to="/resources">
       <span> <i class="fa-solid fa-laptop-file icons"></i>
       <h3>Recursos</h3>
       </span>
-    </a>
+    </Link>
   </li>
 </ul>
 </nav>

@@ -1,23 +1,32 @@
-import React from 'react';
+
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import reportWebVitals from './reportWebVitals';
-import Header from './login/Header/Header';
-import Footer from './login/Footer/Footer';
-import Navbar from './login/navbar/Navbar';
+
+import Calendar from './pages/Calendar';
+import Dashboard from './pages/Dashboard';
+import Course from './pages/Course'
+import ScoreS from './students/Score';
+import ScoreT from './teachers/scoreTeacher'
+import Recursos from './pages/recursos';
+import Error404 from './pages/Error404';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Header />
-    <Navbar />
-    <Footer />
-  </React.StrictMode>
+  <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<Dashboard />}></Route>
+    <Route path='/calendar' element={<Calendar />}></Route>
+    <Route path='/score' element={<ScoreS />}></Route>
+    <Route path='/scoreTeacher' element={<ScoreT />}></Route>
+    <Route path='/recursos' element={<Recursos />}></Route>
+    <Route path='/home' element={<Navigate replace to={"/"} />}></Route>
+    <Route path='*' element={<Error404 />}></Route>
+    <Route path='/studies/:id' element={<Course />}></Route>
+    </Routes>
+  </BrowserRouter>
+ 
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
