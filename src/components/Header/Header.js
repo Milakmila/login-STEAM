@@ -47,7 +47,7 @@ function Header() {
                     <div className="items-bar">
                     <ul id="desplegable">
                             <li>
-                            <Link to="/dashboard">
+                            <Link to="/">
                             <span><i class="fa-solid fa-house icons"></i>
                             <h3>Home</h3>
                             </span>

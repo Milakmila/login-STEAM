@@ -3,7 +3,7 @@ import '../../index.css'
 import hoy from "./trabajo1.png"
 function Dcenter(){
     return(
-        <div>
+        <div className="PrincipalLogin">
             <button onClick="hamburguesa" class="btn-idiom animated-word"> 
                 <p>ES-EN</p>
             </button>

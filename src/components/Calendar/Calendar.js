@@ -1,6 +1,6 @@
 import './Calendar.css'
 import '../../index.css'
-function Calendar(){
+function Calenda(){
     <section>
     <div class="calendar-small">
       <h1>Enero 2022</h1>
@@ -90,4 +90,4 @@ function Calendar(){
     </div>
   </section>  
 }
-export default Calendar
+export default Calenda

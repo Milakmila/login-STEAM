@@ -6,7 +6,8 @@ import './index.css';
 
 import Calendar from './pages/Calendar';
 import Dashboard from './pages/Dashboard';
-import Course from './pages/Course'
+import Course from './pages/Course';
+import Courses from "./pages/Courses";
 import ScoreS from './students/Score';
 import ScoreT from './teachers/scoreTeacher'
 import Recursos from './pages/recursos';
@@ -25,7 +26,8 @@ root.render(
     <Route path='/recursos' element={<Recursos />}></Route>
     <Route path='/home' element={<Navigate replace to={"/"} />}></Route>
     <Route path='*' element={<Error404 />}></Route>
-    <Route path='/studies/:id' element={<Course />}></Route>
+    <Route path='/courses' element={<Courses />}></Route>
+    <Route path='/course/:id' element={<Course />}></Route>
     </Routes>
   </BrowserRouter>
  
