@@ -1,9 +1,7 @@
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
-<<<<<<< HEAD
-=======
 import '../components/courses.css'
->>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
+
 import {getAllCourses} from '../courses'
 import { Link } from "react-router-dom";
 function Courses(){
@@ -18,11 +16,9 @@ function Courses(){
                    
                     <div className="cursos"> 
                     <Link to={`${s.id}`}>
-<<<<<<< HEAD
                     <img src={courses.image} alt="imagen"></img>
-=======
+
                         <div className="image">{s.image}</div>
->>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
                         <h2>{s.title}</h2>
                      </Link>
                     </div> 
@@ -42,8 +38,5 @@ function Courses(){
         </div>
     )
 }
-<<<<<<< HEAD
+
 export default Courses
-=======
-export default Courses
->>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
