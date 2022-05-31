@@ -1,5 +1,6 @@
 import './ScoreS.css'
 import '../../index.css'
+import { Link } from 'react-router-dom'
 function ScoreS(){
     return(
         <div className="students-calificaciones">
@@ -7,12 +8,12 @@ function ScoreS(){
         <p>ES-EN</p>
         </button>
         <div class="botons">
-            <a href="../profesores/score-teacher.html">
+            <Link to="/ScoreTeacher">
                 <button class="btn-green">
                     <i class="fa-solid fa-user"></i>
                     <h5>Exportar</h5>
                 </button>
-            </a>
+            </Link>
         </div>
 
         <div id="search">

@@ -1,10 +1,32 @@
 
 import './Header.css'
 import '../Navbar/Navbar.css'
-import { Link } from 'react-router-dom'
 import logotipo from './Logotipo.png'
+import Navbar from '../Navbar/Navbar'
+import {useState} from "react";
 
 function Header() { 
+    /*Creacion Hook*/
+    const[button, setButton]=useState({
+        nombre:'',
+        apellido:''
+    });
+    
+    /*Constantes que funcionas con eventos*/
+    const click=e=>{
+        console.log("Afecto button")
+        const {target}=e;
+        const{name,value}=target;
+
+        const newValor={
+            ...button,
+            [name]:value,
+
+        };
+        setButton(newValor);
+
+        
+    }
     return (
 
     <header>
@@ -39,59 +61,22 @@ function Header() {
         <div className="barra">
         <div className="linea-proof"></div>   
             <section className="bar-dropdown">
-                <div className="hamburguesa">
-                <input type="checkbox" id="chk-bar"></input>
-                     <label for="chk-bar" className="btn-bar">
-                        <i class="fa-solid fa-bars"></i>
-                    </label>
-                    <div className="items-bar">
-                    <ul id="desplegable">
-                            <li>
-                            <Link to="/dashboard">
-                            <span><i class="fa-solid fa-house icons"></i>
-                            <h3>Home</h3>
-                            </span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/calendar">
-                            <span> <i class="fa-solid fa-calendar icons"></i>
-                            <h3>Calendario</h3>
-                            </span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/courses">
-                            <span> <i class="fa-solid fa-book icons"></i> 
-                            <h3>Cursos</h3>
-                            </span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/score">
-                            <span> <i class="fa-solid fa-medal icons" ></i>
-                            <h3>Notas</h3>
-                            </span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/resources">
-                            <span> <i class="fa-solid fa-laptop-file icons"></i>
-                            <h3>Recursos</h3>
-                            </span>
-                            </Link>
-                        </li>
-                        </ul>
+            <input type="checkbox" id="chk-bar"></input>
+                    <div className="hamburguesa">
+                  <label for="chk-bar" class="btn-menu">
+                  <i class="fa-solid fa-bars"></i>
+                      </label>
+        
 
                     </div>
-                </div>
+                    <div className="items-bar">
+                        <Navbar />
+
+                    </div>
 
             </section>
-
-
-        </div>
-            <div className="linea-proof">   
             </div>
+
            
     </header>
     

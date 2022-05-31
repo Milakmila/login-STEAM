@@ -100,7 +100,7 @@
 .hamburguesa{
     background-color: var(--violet);
     color: white;
-    width: 34px;
+    width: 20px;
     margin: 15px;
     padding: 8px;
     border: none;
@@ -166,7 +166,7 @@
   
     }
     .hamburguesa{
-      width: 45px;
+      width: 25px;
       margin: 20px;
       padding: 12px;
       border-radius: 10px;
