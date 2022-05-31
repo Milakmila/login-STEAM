@@ -39,7 +39,11 @@
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     animation: swing-in-left-fwd 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+=======
+    
+>>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
 }
 
     

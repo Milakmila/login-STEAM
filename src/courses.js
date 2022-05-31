@@ -1,7 +1,11 @@
 let courses=[
     {
         id:1,
+<<<<<<< HEAD
         image:"https://images.immediate.co.uk/production/volatile/sites/32/2022/01/finger-painting-ideas-iStock-113722864-fdae8dc.jpg?quality=90&resize=980,654",
+=======
+        image:"https://images.unsplash.com/photo-1560421683-6856ea585c78?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJ0ZSUyMGRlJTIwbG9zJTIwbmklQzMlQjFvc3xlbnwwfHwwfHw%3D&w=1000",
+>>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
         title: "Arte",
         trabajo: "titulo",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nisl vitae efficitur tincidunt.",

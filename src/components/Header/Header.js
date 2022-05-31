@@ -61,6 +61,7 @@ function Header() {
         <div className="barra">
         <div className="linea-proof"></div>   
             <section className="bar-dropdown">
+<<<<<<< HEAD
             <input type="checkbox" id="chk-bar"></input>
                     <div className="hamburguesa">
                   <label for="chk-bar" class="btn-menu">
@@ -71,6 +72,51 @@ function Header() {
                     </div>
                     <div className="items-bar">
                         <Navbar />
+=======
+                <div className="hamburguesa">
+                <input type="checkbox" id="chk-bar"></input>
+                     <label for="chk-bar" className="btn-bar">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <div className="items-bar">
+                    <ul id="desplegable">
+                            <li>
+                            <Link to="/">
+                            <span><i class="fa-solid fa-house icons"></i>
+                            <h3>Home</h3>
+                            </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/calendar">
+                            <span> <i class="fa-solid fa-calendar icons"></i>
+                            <h3>Calendario</h3>
+                            </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/courses">
+                            <span> <i class="fa-solid fa-book icons"></i> 
+                            <h3>Cursos</h3>
+                            </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/score">
+                            <span> <i class="fa-solid fa-medal icons" ></i>
+                            <h3>Notas</h3>
+                            </span>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="/resources">
+                            <span> <i class="fa-solid fa-laptop-file icons"></i>
+                            <h3>Recursos</h3>
+                            </span>
+                            </Link>
+                        </li>
+                        </ul>
+>>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
 
                     </div>
 
