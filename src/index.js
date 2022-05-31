@@ -12,7 +12,7 @@ import ScoreS from './students/Score';
 import ScoreT from './teachers/scoreTeacher'
 import Recursos from './pages/recursos';
 import Error404 from './pages/Error404';
-
+import Login from "./pages/Login";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +28,8 @@ root.render(
     <Route path='*' element={<Error404 />}></Route>
     <Route path='/courses' element={<Courses />}></Route>
     <Route path='/course/:id' element={<Course />}></Route>
+    <Route path='/login' element={<Login />}></Route>
+  
     </Routes>
   </BrowserRouter>
  

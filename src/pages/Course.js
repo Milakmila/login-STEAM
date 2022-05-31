@@ -6,7 +6,7 @@ import {getCourse} from "../courses";
 
 function Course(){
     const params=useParams();
-    const  course=getCourse(parseInt(params.id));
+    const  cours=getCourse(parseInt(params.id));
 
     return(
         <div>
@@ -16,8 +16,8 @@ function Course(){
                 IMAGEN como array
             </div>
             <div className="card-deliver">
-                <h3>{course.trabajo}</h3>
-                <p><strong>Descripción: </strong>{course.descripción}</p>
+                <h3>{cours.trabajo}</h3>
+                <p><strong>Descripción: </strong>{cours.descripción}</p>
                 <div class="icons" >
                     <a href="#modal" class="cta"><i class="fa-solid fa-paperclip" ></i></a>
                     <a href="#modal" class="cta"><i class="fa-solid fa-comment"></i></a>
