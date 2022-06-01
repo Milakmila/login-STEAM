@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/login-STEAM/static/css/main.ab063e03.css",
-    "main.js": "/login-STEAM/static/js/main.c48e6227.js",
+    "main.css": "/login-STEAM/static/css/main.3792bd89.css",
+    "main.js": "/login-STEAM/static/js/main.285f5ea9.js",
     "static/media/trabajo1.png": "/login-STEAM/static/media/trabajo1.e5a72c162b4e49008a77.png",
     "static/media/Logotipo.png": "/login-STEAM/static/media/Logotipo.f5706b3db35a180d0cbe.png",
     "index.html": "/login-STEAM/index.html",
-    "main.ab063e03.css.map": "/login-STEAM/static/css/main.ab063e03.css.map",
-    "main.c48e6227.js.map": "/login-STEAM/static/js/main.c48e6227.js.map"
+    "main.3792bd89.css.map": "/login-STEAM/static/css/main.3792bd89.css.map",
+    "main.285f5ea9.js.map": "/login-STEAM/static/js/main.285f5ea9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab063e03.css",
-    "static/js/main.c48e6227.js"
+    "static/css/main.3792bd89.css",
+    "static/js/main.285f5ea9.js"
   ]
 }
