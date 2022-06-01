@@ -97,7 +97,6 @@ position: relative;
 z-index: 0;
 }
 .hamburguesa{
-<<<<<<< HEAD
     background-color: var(--violet);
     color: white;
     width: 20px;
@@ -105,15 +104,6 @@ z-index: 0;
     padding: 8px;
     border: none;
     border-radius: 10px;
-=======
-  background-color: var(--violet);
-  color: white;
-  width: 34px;
-  margin: 15px;
-  padding: 8px;
-  border: none;
-  border-radius: 10px;
->>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
 }
 .hamburguesa i{
 font-size: 20px;
@@ -174,7 +164,6 @@ background: var(--violet);
   font-size: 1em;
 
   }
-<<<<<<< HEAD
   .logo-index{
     grid-template-columns: 20% 80%;
   }
@@ -210,20 +199,6 @@ background: var(--violet);
   .linea-proof{
     width: 1000px; 
   }
-=======
-  .hamburguesa{
-    width: 45px;
-    margin: 20px;
-    padding: 12px;
-    border-radius: 10px;
-}
-.hamburguesa i{
-  font-size: 22px;
-}
-.linea-proof{
-  width: 1000px; 
-}
->>>>>>> 8712c3d6a8c8627b63b73420c305467a16aff2fb
 }
 
 @media screen and (min-width:1024px) {
