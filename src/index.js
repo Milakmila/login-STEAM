@@ -3,7 +3,8 @@ import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-
+import LoginT from "./teachers/LoginT";
+import LoginS from "./students/LoginS";
 import Calendar from './pages/Calendar';
 import Dashboard from './pages/Dashboard';
 import Course from './pages/Course';
@@ -12,7 +13,6 @@ import ScoreS from './students/Score';
 import ScoreT from './teachers/scoreTeacher'
 import Recursos from './pages/recursos';
 import Error404 from './pages/Error404';
-import Login from "./pages/Login";
 
 
 
@@ -30,7 +30,8 @@ root.render(
     <Route path='/courses' element={<Courses />}></Route>
     <Route path='/courses/:id' element={<Course />}></Route>
     <Route path='/course/:id' element={<Course />}></Route>
-    <Route path='/login' element={<Login />}></Route>
+    <Route path='/profesores' element={<LoginT />}></Route>
+    <Route path='/estudiantes' element={<LoginS />}></Route>
   
 
     </Routes>

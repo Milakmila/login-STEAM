@@ -99,7 +99,7 @@ z-index: 0;
 .hamburguesa{
     background-color: var(--violet);
     color: white;
-    width: 20px;
+    width: 35px;
     margin: 15px;
     padding: 8px;
     border: none;
@@ -129,7 +129,7 @@ font-size: 1.5rem;
 cursor: pointer;/*Al pasar por encima muestra la manito*/
 }
 .linea-proof{
-width: 300px; 
+width: 486px; 
 height: 15px; 
 background: var(--violet);
 
@@ -188,7 +188,7 @@ background: var(--violet);
   
     }
     .hamburguesa{
-      width: 25px;
+      width: 45px;
       margin: 20px;
       padding: 12px;
       border-radius: 10px;
@@ -197,7 +197,7 @@ background: var(--violet);
     font-size: 22px;
   }
   .linea-proof{
-    width: 1000px; 
+    width: 870px; 
   }
 }
 
@@ -207,7 +207,7 @@ background: var(--violet);
   width: 140%;
 }
 .linea-proof{
-  width: 1330px; 
+  width: 1060px; 
 }
 .items{
   width: 10vw;
@@ -229,7 +229,7 @@ background: var(--violet);
   width: 190%;
 }
 .linea-proof{
-  width: 1920px; 
+  width: 1880px; 
 }
 
 }

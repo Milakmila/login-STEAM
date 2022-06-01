@@ -1,0 +1,48 @@
+
+    
+    .down-user{
+    justify-self: baseline;
+    grid-column: 2;
+    margin-left: 10px;
+    
+    }
+    .down-user i{
+    color: var(--green-secundario);
+    font-size:30px ;
+    
+    }
+    
+    #chk-user{
+    display: none;
+    }
+    #chk-user:checked ~.users{
+    display: block;
+    display: grid;
+    grid-template-rows: repeat(2, 20px);
+    gap: 20px;
+    
+    }
+    
+    .user-dropdown{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;/*Al pasar por encima muestra la manito*/
+    }
+    .users{
+    background-color:rgba(69,45,128,0.8); 
+    display: none;
+    position: relative;
+    text-align: center;
+    width: 10em;
+    height: 5em;
+    }
+    
+    .uu{
+    padding: 0.7rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    }
+    .uu:hover{
+    color: var(--green-secundario);
+    }

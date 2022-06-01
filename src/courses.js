@@ -1,8 +1,7 @@
 let courses=[
     {
         id:1,
-        image:"https://images.immediate.co.uk/production/volatile/sites/32/2022/01/finger-painting-ideas-iStock-113722864-fdae8dc.jpg?quality=90&resize=980,654",
-
+        image:"https://media3.giphy.com/media/l0Iy3qmrODEarmfHq/giphy.gif?cid=ecf05e47n4hxxs6u6suhkx28slu5938ro8f5eld1mpkwkzr8&rid=giphy.gif&ct=g",
         title: "Arte",
         trabajo: "titulo",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nisl vitae efficitur tincidunt.",
@@ -10,7 +9,7 @@ let courses=[
     },
     {
         id:2,
-        image:"https://images.unsplash.com/photo-1633828763399-e29f1cd3f4c1?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074",
+        image:"https://media3.giphy.com/media/o65WgXSDBVY1G/giphy.gif?cid=ecf05e47aq9zgefha69plm6ov7pi2o79am1sh91m21mzknvi&rid=giphy.gif&ct=g",
         title: "Ciencia",
         trabajo: "titulo",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nisl vitae efficitur tincidunt.",
@@ -18,7 +17,7 @@ let courses=[
     },
     {
         id:3,
-        image:"https://images.unsplash.com/photo-1601397922721-4326ae07bbc5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171",
+        image:"https://media2.giphy.com/media/l4FGm96DtL5NhI0nu/giphy.gif?cid=ecf05e47ccxknqo9vyzn2l02twg6s9mj7yv14ab8x3ly59bq&rid=giphy.gif&ct=g",
         title: "Matemáticas",
         trabajo: "titulo",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nisl vitae efficitur tincidunt.",
@@ -26,7 +25,7 @@ let courses=[
     },
     {
         id:4,
-        image:"https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870",
+        image:"https://media3.giphy.com/media/l3vRhrALMlMRzABXO/giphy.gif?cid=ecf05e47e7u2tdekg1962grci4wkatsgppsla23ihshwbbsl&rid=giphy.gif&ct=g",
         title: "Ingenieria",
         trabajo: "titulo",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nisl vitae efficitur tincidunt.",
@@ -34,7 +33,7 @@ let courses=[
     },
     {
         id:5,
-        image:"https://images.unsplash.com/photo-1548125119-57853b9b0f07?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870",
+        image:"https://media3.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif?cid=ecf05e47fhg5nliwhnsrshay196oxreao3h22geml6oh6w72&rid=giphy.gif&ct=g",
         title: "Tecnología",
         trabajo: "titulo",
         descripcion:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas nisl vitae efficitur tincidunt.",

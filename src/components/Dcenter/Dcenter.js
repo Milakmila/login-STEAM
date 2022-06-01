@@ -1,6 +1,7 @@
 import './Dcenter.css'
 import '../../index.css'
 import hoy from "./trabajo1.png"
+import { Link } from "react-router-dom";
 function Dcenter(){
     
 // Add a "checked" symbol when clicking on a list item
@@ -43,19 +44,19 @@ function Dcenter(){
             <h2>Clases Prioritarias</h2>
             <div class="class-four">
                 <div class="class">
-                <a href="../Proyecto-STEAM/src/pages/Areas-STEAM/matematica.html">
-                    <img src={hoy} alt="imagenestrabajohoy"></img> 
+                <Link to="/courses">
+                    <img src={"https://media1.giphy.com/media/3o72EXSWcDayDDGP60/giphy.gif?cid=ecf05e47f8e353x8podx05gmq5kvjzngkzd1kvdk0t3qgx7l&rid=giphy.gif&ct=g"} alt="matematicas"/>
                     <h3>Mátematica</h3>
-                </a>
+                </Link>
                 </div>
             </div>
 
             <div class="class-one">
                 <div class="class">
-                <a href="../Proyecto-STEAM/src/pages/Areas-STEAM/ciencia.html">
-                    <img src={hoy} alt="imagenestrabajohoy"></img> 
+                <Link to="/courses">
+                    <img src={"https://media3.giphy.com/media/o65WgXSDBVY1G/giphy.gif?cid=ecf05e47aq9zgefha69plm6ov7pi2o79am1sh91m21mzknvi&rid=giphy.gif&ct=g"} alt="imagenestrabajohoy"></img> 
                     <h3>Ciencia</h3>
-                </a>
+                </Link>
                 </div>
             </div>
 

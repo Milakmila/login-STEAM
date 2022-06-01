@@ -1,18 +1,15 @@
 import './ScoreS.css'
 import '../../index.css'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import BotonV from '../botonV/BotonV';
+import BotonI from '../botonI/BotonI';
 function ScoreS(){
     return(
         <div className="students-calificaciones">
-        <button  class="btn-idiom animated-word">
-        <p>ES-EN</p>
-        </button>
+        <BotonI />
         <div class="botons">
             <Link to="/ScoreTeacher">
-                <button class="btn-green">
-                    <i class="fa-solid fa-user"></i>
-                    <h5>Exportar</h5>
-                </button>
+             <BotonV />
             </Link>
         </div>
 

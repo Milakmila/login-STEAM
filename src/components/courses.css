@@ -5,10 +5,19 @@ body{
     align-items: center;
     justify-content: center;
 }
-.image{
-    border: 2px solid rgb(146,204,2);
+.clas{
+    border: 6px solid rgb(146,204,2);
     width: 300px;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
 }
+  
+.clas:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
 h2{
     margin-bottom: 30px;
 }
@@ -17,10 +26,28 @@ h1{
 }
 
 @media screen and (min-width:768px) {
-    .cursos{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+    .c-div{
+        margin-bottom:  5rem;
     }
-    
+    .courses{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content:space-evenly;
+       align-items: center;
+      
+    }
+    .clas{
+        align-items: center;
+
+
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    .clas{
+        margin: 20px;
+    }
+
 }

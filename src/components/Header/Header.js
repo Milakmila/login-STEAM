@@ -4,6 +4,7 @@ import '../Navbar/Navbar.css'
 import logotipo from './Logotipo.png'
 import Navbar from '../Navbar/Navbar'
 import {useState} from "react";
+import { Link } from 'react-router-dom'
 
 function Header() { 
     /*Creacion Hook*/
@@ -46,9 +47,9 @@ function Header() {
                       <i class="fa-solid fa-caret-down  fa-1x down-arrow"></i>
                   </label>
                   <div class="items">
-                  <a href="../Login/dashboard.html"class="item">Ajustes</a>
-                  <a href="../Login/login-general/perfil.html"class="item">Perfil</a>
-                  <a href="../../../index.html"class="item">Log out</a>
+                  <Link to="/Ajustes"class="item">Ajustes</Link>
+                  <Link to="/Perfil"class="item">Perfil</Link>
+                  <Link to="/Login" class="item">Log out</Link>
                 </div>
                 </div>
                 </section>
