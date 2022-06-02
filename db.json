@@ -1,0 +1,63 @@
+{
+    "score":[
+        {
+            "id": 1,
+            "nombres": "Alejandra Arias",
+            "correo": "alejandrarias@colegiosanpatricio.com",
+            "trabajos":["trabajo1", "trabajo2", "trabajo3"],
+            "puntaje":["10","7","6"],
+            "promedio":"98%"
+        },
+        {
+            "id": 2,
+            "nombres": "Catalina Perez",
+            "correo": "catalinaperez@colegiosanpatricio.com",
+            "trabajos":["trabajo1", "trabajo2", "trabajo3"],
+            "puntaje":["10","7","6"],
+            "promedio":"98%"
+        },
+        {
+            "id": 3,
+            "nombres": "Diana Acosta",
+            "correo": "dianacosta@colegiosanpatricio.com",
+            "trabajos":["trabajo1", "trabajo2", "trabajo3"],
+            "puntaje":["10","7","6"],
+            "promedio":"80%"
+        },
+        {
+            "id": 4,
+            "nombres": "Evelyn Torres",
+            "correo": "evelynetorres@colegiosanpatricio.com",
+            "trabajos":["trabajo1", "trabajo2", "trabajo3"],
+            "puntaje":["10","7","6"],
+            "promedio":"98%"
+        },
+        {
+            "id": 5,
+            "nombres": "Gabriela Rivas",
+            "correo": "gabrielarivass@colegiosanpatricio.com",
+            "trabajos":["trabajo1", "trabajo2", "trabajo3"],
+            "puntaje":["10","7","6"],
+            "promedio":"98%"
+        },
+        {
+            "id": 6,
+            "nombres": "Ingrid Heredia",
+            "correo": "ingridheredia@colegiosanpatricio.com",
+            "trabajos":["trabajo1", "trabajo2", "trabajo3"],
+            "puntaje":["10","7","6"],
+            "promedio":"98%"
+        },
+        {
+            "id": 7,
+            "nombres": "Gabriela Rivas",
+            "correo": "gabrielarivass@colegiosanpatricio.com",
+            "trabajos":["trabajo1", "trabajo2", "trabajo3"],
+            "puntaje":["10","7","6"],
+            "promedio":"98%"
+        }
+
+    ]
+
+
+}

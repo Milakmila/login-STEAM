@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-    <Route path='/login-STEAM/' element={<Dashboard />}></Route>
+    <Route path='/login-STEAM' element={<Dashboard />}></Route>
     <Route path='/calendar' element={<Calendar />}></Route>
     <Route path='/score' element={<ScoreS />}></Route>
     <Route path='/scoreTeacher' element={<ScoreT />}></Route>
