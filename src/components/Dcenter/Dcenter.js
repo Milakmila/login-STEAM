@@ -11,7 +11,61 @@ function Dcenter(){
         ev.target.classList.toggle('checked');
     }
     }, false);
+        // Create a "close" button and append it to each list item
+    var myNodelist = document.getElementsByTagName("LI");
+    var i;
+    for (i = 0; i < myNodelist.length; i++) {
+    var span = document.createElement("span");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    myNodelist[i].appendChild(span);
+    }
 
+    // Click on a close button to hide the current list item
+    var close = document.getElementsByClassName("close");
+    var i;
+    for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+    }
+    }
+
+    // Add a "checked" symbol when clicking on a list item
+    var list = document.querySelector('ul');
+    list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI') {
+        ev.target.classList.toggle('checked');
+    }
+    }, false);
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+    var li = document.createElement("li");
+    var inputValue = document.getElementById("myInput").value;
+    var t = document.createTextNode(inputValue);
+    li.appendChild(t);
+    if (inputValue === '') {
+      alert("You must write something!");
+    } else {
+      document.getElementById("myUL").appendChild(li);
+    }
+    document.getElementById("myInput").value = "";
+  
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    li.appendChild(span);
+  
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function() {
+        var div = this.parentElement;
+        div.style.display = "none";
+      }
+    }
+  }
 
     return(
         <div className="PrincipalLogin">
@@ -28,15 +82,20 @@ function Dcenter(){
         </div>
 
         <div class="to-do">
-            <h2>TO DO'S</h2>
+        <h2>TO DO'S</h2>
+            <div id="myDIV">
+                    <input type="text" id="myInput" placeholder="To do..."/>
+                    <button onclick="newElement()" class="addBtn">Add</button>
+                </div>
+            
     
                 <ul id="myUL" className="ul-todo">
-                    <li className="list-todo">Hit the gym</li>
-                    <li className="list-todo checked">Pay bills</li>
-                    <li className="list-todo">Meet George</li>
-                    <li className="list-todo">Buy eggs</li>
-                    <li className="list-todo">Read a book</li>
-                    <li className="list-todo">Organize office</li>
+                    <li className="list-todo">Rompecabezas de Arte</li>
+                    <li className="list-todo checked">Trabajo de matemáticas</li>
+                    <li className="list-todo">Juego de matemticas</li>
+                    <li className="list-todo">Jugar</li>
+                    <li className="list-todo">Leer el articulo de tecnologia</li>
+                    <li className="list-todo">Hacer una presentación</li>
                 </ul>
         </div>  
         
