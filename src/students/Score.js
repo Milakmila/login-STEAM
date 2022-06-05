@@ -8,7 +8,7 @@ function Score(){
         <div>
             <Header />
             <div className="dashboard-nav-center">
-            <section className="bar-dropdown">
+            <div className="bar-dropdown">
 
 <input type="checkbox" id="chk-bar"></input>
         <div className="hamburguesa">
@@ -22,7 +22,7 @@ function Score(){
             <Navbar />
         </div>
 
-</section>
+</div>
             <ScoreS />
             </div>
             <Footer />

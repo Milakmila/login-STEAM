@@ -18,10 +18,10 @@
 nav{
     background-color: var(--violet);
     width: 70%;
-    margin: 20px;
+    margin:20px;
     border-radius: 10px;
     padding: 10px;
-    flex-basis: 100%;
+
     
 }
 ul li{
@@ -48,7 +48,7 @@ h3{
 
 @media screen and (min-width:768px) {
     nav{
-        width: 11%;
+        width: 80%;
         margin: 20px;
 
     }
@@ -57,7 +57,7 @@ h3{
 
 @media screen and (min-width:1024px) {
     nav{
-        width: 10%;
+        width: 100%;
         margin: 10px;
     }
 }
@@ -65,7 +65,7 @@ h3{
 
 @media screen and (min-width:1024px) {
     nav{
-        width: 7%;
+        width: 100%;
     
     }
 }
