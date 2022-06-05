@@ -50,3 +50,8 @@ code {
     outline-color: rgba(71, 126, 232, 0);
     outline-offset: 300px;
   }
+
+  .dashboard-nav-center{
+    display: flex;
+
+}

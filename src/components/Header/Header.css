@@ -95,6 +95,7 @@ align-self:center;
 background-color: rgba(69,46,128,0.3);
 position: relative;
 z-index: 0;
+width: 25%;
 }
 .hamburguesa{
     background-color: var(--violet);

@@ -60,21 +60,7 @@ function Header() {
 
         <div className="barra">
         <div className="linea-proof"></div>   
-            <section className="bar-dropdown">
-
-            <input type="checkbox" id="chk-bar"></input>
-                    <div className="hamburguesa">
-                  <label for="chk-bar" class="btn-menu">
-                  <i class="fa-solid fa-bars"></i>
-                      </label>
-        
-
-                    </div>
-                    <div className="items-bar">
-                        <Navbar />
-                    </div>
-
-            </section>
+           
         </div>
 
     </header>
