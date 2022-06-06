@@ -1,5 +1,5 @@
 import './Footer.css'
-function Footer() { 
+function FooterLogin() { 
     return(
         <footer class="footer">
             <p>@2020 San Patricio School. All Rights reserved.</p>
@@ -7,4 +7,4 @@ function Footer() {
     )
 
 }
-export default Footer;
+export default FooterLogin;
