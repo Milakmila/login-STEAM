@@ -32,6 +32,8 @@ root.render(
     <Route path='/course/:id' element={<Course />}></Route>
     <Route path='/profesores' element={<LoginT />}></Route>
     <Route path='/estudiantes' element={<LoginS />}></Route>
+
+    <Route path='/resources' element={<Recursos />}></Route>
   
 
     </Routes>

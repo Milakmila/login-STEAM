@@ -128,12 +128,7 @@ color: white;
 font-size: 1.5rem;
 cursor: pointer;/*Al pasar por encima muestra la manito*/
 }
-.linea-proof{
-width: 486px; 
-height: 15px; 
-background: var(--violet);
 
-}
 
 @media screen and (min-width:708px) {
 .items{
@@ -196,9 +191,7 @@ background: var(--violet);
   .hamburguesa i{
     font-size: 22px;
   }
-  .linea-proof{
-    width: 870px; 
-  }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -206,9 +199,7 @@ background: var(--violet);
 .logo-index img{ 
   width: 140%;
 }
-.linea-proof{
-  width: 1060px; 
-}
+
 .items{
   width: 10vw;
   height: 10vw;
@@ -225,11 +216,6 @@ background: var(--violet);
 .logo-index img{ 
   width: 80%;
 }
-.linea{
-  width: 190%;
-}
-.linea-proof{
-  width: 1880px; 
-}
+
 
 }

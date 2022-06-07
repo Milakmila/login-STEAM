@@ -3,7 +3,34 @@ import '../../index.css'
 import hoy from "./trabajo1.png"
 import { Link } from "react-router-dom";
 function Dcenter(){
-    
+    // Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
 // Add a "checked" symbol when clicking on a list item
     var list = document.querySelector('ul');
     list.addEventListener('click', function(ev) {
@@ -29,14 +56,19 @@ function Dcenter(){
 
         <div class="to-do">
             <h2>TO DO'S</h2>
-    
-                <ul id="myUL" className="ul-todo">
-                    <li className="list-todo">Hit the gym</li>
-                    <li className="list-todo checked">Pay bills</li>
-                    <li className="list-todo">Meet George</li>
-                    <li className="list-todo">Buy eggs</li>
-                    <li className="list-todo">Read a book</li>
-                    <li className="list-todo">Organize office</li>
+                    <div id="myDIV">
+
+                <input type="text" id="myInput" placeholder="Title..."/>
+                <span onclick="newElement()" class="addBtn">Add</span>
+                </div>
+
+                <ul id="myUL" className="todo">
+                <li>Hit the gym</li>
+                <li class="checked">Pay bills</li>
+                <li>Meet George</li>
+                <li>Buy eggs</li>
+                <li>Read a book</li>
+                <li>Organize office</li>
                 </ul>
         </div>  
         

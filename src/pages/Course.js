@@ -4,7 +4,7 @@ import {Link, useParams} from "react-router-dom";
 import {getCourse} from "../courses";
 import '../components/style/modal.css'
 import Footer from "../components/Footer/Footer";
-
+import Navbar from "../components/Navbar/Navbar";
 
 
 function Course(){
@@ -14,6 +14,22 @@ function Course(){
         <div>
              {params.id}
             <Header />
+            <div className="dashboard-nav-center">
+            <section className="bar-dropdown">
+
+<input type="checkbox" id="chk-bar"></input>
+        <div className="hamburguesa">
+      <label for="chk-bar" class="btn-menu">
+      <i class="fa-solid fa-bars"></i>
+          </label>
+
+
+        </div>
+        <div className="items-bar">
+            <Navbar />
+        </div>
+
+</section>
             <div>
                 <img src={course.banner} alt="imagen"></img>
             </div>
@@ -43,12 +59,11 @@ function Course(){
                 <button class="btn-verde">Enviar</button>
                </form>
 
-               
-
-
+            
 
         </div>
         </section>
+        </div>
 
         <Footer />
 
