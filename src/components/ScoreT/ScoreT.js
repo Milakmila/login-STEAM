@@ -20,13 +20,59 @@ function ScoreT(){
             </a>
             </label>
         </div>
+        <table className="table">
+                <tr className="rowprincipal-teacher"> 
+                    <th class="student-teacher"> Estudiante:</th>
+                    <th class="email-teacher">Correo:</th>
+                    <th class="workshop-teacher">Trabajos:</th>
+                    <th class="score-teacher">Puntaje:</th>
+                    <th class="average-teacher">Promedio:</th>
+                </tr>
+                <tr className="row-teacher"> 
+                    <td class="student"> 
+                        <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
+                        Arias Catalina
+                    </td>
 
+                       
+                    <td class="email">catalinarias@colegiosanpatricio.com</td>
+                    <td class="workshop">
 
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                    </td>
                     
-                  
+                        <td class="score-students">
+                            <div>
+                            10
+                            </div>
+                     
+                            <div>
+                            10
+                            </div>
+                          
+                            <div>
+                            10
+                            </div>
+                            </td>
+                        <td class="average">98%</td>
+                   
+                   </tr> 
 
-                    
-                 
+
                     <article id="modal" className="modal">
                             <div class="modalContainer2">
                                 <div class="imagenestudiante">
@@ -41,7 +87,7 @@ function ScoreT(){
                                     <li>Nombre trabajo2</li>
                                     <li>Nombre trabajo3</li>
                                 </ul>
-                        
+
                                 </div>
                                 <div class="lista2">
                                     <h4>notas:</h4>
@@ -51,16 +97,17 @@ function ScoreT(){
                                         <li>10</li>
                                     </ul>
                                 </div>
-                                
+
 
                                 <a href="">
                                     <button class="btn-volver">Volver</button>
                                     </a>
                             </div>
-                            
-                        
+
+
                         </article>
-                        <section id="modal2" class="modal2">
+                       
+                    <section id="modal2" class="modal2">
                         <div class="modalContainer3">
                             <h2>Nombre trabajo</h2>
                             <div class="descarga">
@@ -75,12 +122,13 @@ function ScoreT(){
                             <textarea name="textarea"class="label-green" rows="10" cols="50">Este trabajo...
                     
                             </textarea>
-
+                
                             <a href="#modal3">
                                 <button class="btn-volver">Subir nota</button>
                                 </a>
 
                         </div>
+                       
                     </section>
                     <section id="modal3" class="modal3">
                         <div class="modalContainer4">
@@ -91,14 +139,13 @@ function ScoreT(){
                             </div>
                             
                             <h2>Subido correctamente</h2>
-                            <Link to="/">
+                            <a href="">
                                 <button class="btn-volver">Volver</button>
-                            </Link>
+                                </a>
                         </div>
                     </section>
-
-                    
-                
+                   
+        </table>
     </section>
 )
 }

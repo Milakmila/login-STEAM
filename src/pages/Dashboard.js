@@ -1,7 +1,6 @@
 import Header from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 import Dcenter from "../components/Dcenter/Dcenter"
-import User from "../components/User/user"
 import '../index.css'
 import Navbar from "../components/Navbar/Navbar"
 

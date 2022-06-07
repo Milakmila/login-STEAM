@@ -46,7 +46,7 @@
 
 }
 
-    
+
 .today img{
     max-width: 80%;
     border-radius: 25px;
@@ -269,7 +269,9 @@
     .today{
         grid-column: 2;
         justify-content: left;
+        height: 70%;
     }
+    
     .PriorityClass{
         grid-template-areas: 
         "title title"
@@ -284,7 +286,14 @@
 
  @media screen and (min-width:1024px) {
     .today img{
-        width: 65%;
+        width: 75%;
     }
-  
+    
+}
+@media screen and (min-width:1024px) {
+    .today{
+        grid-column: 2;
+        justify-content: left;
+        height: 98%;
+    }
 }

@@ -1,8 +1,14 @@
-
+import '../components/recursos.css'
 function Recursos(){
     return(
         <>
-        <h1>Pronto estara disponible</h1>
+      <div class="container">
+  <h2 class="title">
+    <span class="title-word title-word-1">Pronto</span>
+    <span class="title-word title-word-2">Estara</span>
+    <span class="title-word title-word-3">Disponible</span>
+  </h2>
+</div>
         </>
     )
 }
