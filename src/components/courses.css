@@ -29,6 +29,7 @@ h1{
     .c-div{
         margin-bottom:  5rem;
 
+        
     }
     .courses{
        display: flex;
@@ -44,11 +45,10 @@ h1{
 
     }
 
-}
-
-@media screen and (min-width:1024px) {
+}@media screen and (min-width:1024px) {
     .clas{
         margin: 20px;
     }
 
 }
+
