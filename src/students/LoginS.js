@@ -1,28 +1,35 @@
+import {Link} from 'react-router-dom';
 import logotipo from '../components/Header/Logotipo.png'
-import './LoginS.css';
-import { Link } from "react-router-dom";
-import {useState} from "react"
-import BotonV from '../components/botonV/BotonV';
-function LoginS (){
-    const [usuario, cambiarUsuario] = useState({campo: '', valido: null});
-    const [formularioValido, cambiarFormularioValido] = useState(null);
-    const expresiones = {
-		usuario: /^[a-zA-Z0-9_-]{4,16}$/, // Letras, numeros, guion y guion_bajo
+
+import '../components/User/user.css'
+import React, {useState} from 'react';
+import {Formulario,ContenedorBotonCentrado,Boton,MensajeExito,MensajeError} from '../element/LoginForm';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExclamationTriangle} from '@fortawesome/free-solid-svg-icons';
+import Input from '../components/input/Input';
+
+function Login(){
+    const [nombre, cambiarNombre] = useState({campo: '', valido: null});
+	const [password, cambiarPassword] = useState({campo: '', valido: null});
+    const [formularioValido,cambiarFormularioValido]= useState(null);
+    const expresiones={
+        usuario:/^[a-zA-Z0-9_-]{4,16}$/,
+        password:/^.{4,12}$/
     }
     const onSubmit = (e) => {
-		e.preventDefault();
-
-		if(
-			usuario.valido === 'true' 
-            
-        ){
-            cambiarFormularioValido(true);
-            cambiarUsuario({campo: '', valido: ''});
-        }else{
+        e.preventDefault();
+    if(
+    nombre.valido === 'true' &&
+    password.valido === 'true' 
+    ){
+    cambiarNombre({campo: '', valido: null});
+    cambiarPassword({campo: '', valido: null});
+    } else {
             cambiarFormularioValido(false);
-            
         }
     }
+
+
     return(
         <section id="login">
         <div class="images-login">
@@ -31,36 +38,45 @@ function LoginS (){
 
         <div class="form-login">
             <h2>Login</h2>
-            <form action="" onSubmit={onSubmit}>
-            <div class="form-group">
-                <label for="usuario" class="form-label">Usuario</label>
-                <input  class="form-input" type="text" name="usuario" id="usuario"  cambiarEstado={cambiarUsuario} leyendaError="El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo."
-					expresionRegular={expresiones.usuario} required />
-            </div>
-
-            <div class="form-group">
-                <label for="password" class="form-label">Contraseña</label>
-                <input  class="form-input" type="password" name="password" id="password" required />
-            </div>
-            <div class="botons">
-                <Link to="/login-STEAM">
-                <BotonV />
-                </Link>
-                
-            </div>
-            {formularioValido === false && <span><p>
-						<i></i>
-						<b>Error:</b> Por favor rellena el formulario correctamente.
-					</p>
-				</span>}
-            </form>
+            <Formulario action="" onSubmit={onSubmit}>
+       
+<Input
+					estado={nombre}
+					cambiarEstado={cambiarNombre}
+					tipo="text"
+					label="Nombre"
+					placeholder="John Doe"
+					name="usuario"
+					leyendaError="El nombre solo puede contener letras y espacios."
+					expresionRegular={expresiones.nombre}
+				/>
+<Input
+					estado={password}
+					cambiarEstado={cambiarPassword}
+					tipo="password"
+					label="Contraseña"
+					name="password1"
+					leyendaError="La contraseña tiene que ser de 4 a 12 dígitos."
+					expresionRegular={expresiones.password}
+         
+          
+				/>
+ {formularioValido===false && <MensajeError>
+        <p>
+          <FontAwesomeIcon icon={faExclamationTriangle}/>
+          <b>Error:</b>Por favor diligenciar el formulario correctamente</p>
+      </MensajeError>}
+      <ContenedorBotonCentrado>
+        <Boton type="submit">Enviar</Boton>
+		{formularioValido === true && <MensajeExito>Formulario enviado exitosamente!</MensajeExito>}
+      </ContenedorBotonCentrado>
+     
+      </Formulario>
     
         </div>
         
     </section>
-    
-    )
-
+    );
 }
 
-export default LoginS
+export default Login;

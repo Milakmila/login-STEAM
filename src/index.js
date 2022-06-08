@@ -22,10 +22,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-    <Route path='/login-STEAM' element={<Dashboard />}></Route>
+    <Route path='/login-STEAM/' element={<Dashboard />}></Route>
      <Route path='/dashboard' element={<Navigate replace to={"/login-STEAM"}/>}></Route>
     <Route path='/calendar' element={<Calendar />}></Route>
-    <Route path='/scoreStudents' element={<ScoreS />}></Route>
+    
     <Route path='/scoreTeacher' element={<ScoreT />}></Route>
     <Route path='/recursos' element={<Recursos />}></Route>
     <Route path='*' element={<Error404 />}></Route>
