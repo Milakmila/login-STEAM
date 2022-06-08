@@ -46,9 +46,9 @@ function Header() {
                       <i class="fa-solid fa-caret-down  fa-1x down-arrow"></i>
                   </label>
                   <div class="items">
-                  <Link to="/Ajustes"class="item">Ajustes</Link>
-                  <Link to="/Perfil"class="item">Perfil</Link>
-                  <Link to="/Login" class="item">Log out</Link>
+                  <Link to="/dashboard/ajustes"class="item">Ajustes</Link>
+                  <Link to="/dashboard/perfil"class="item">Perfil</Link>
+                  <Link to="/home" class="item">Log out</Link>
                 </div>
                 </div>
                 </section>

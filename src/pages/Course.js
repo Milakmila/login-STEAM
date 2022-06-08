@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header"
-
+import arte from "../components/arte.svg"
 import {Link, useParams} from "react-router-dom";
 import {getCourse} from "../courses";
 import '../components/style/modal.css'
@@ -12,28 +12,28 @@ function Course(){
     const  course=getCourse(parseInt(params.id));
     return(
         <div>
-             {params.id}
             <Header />
             <div className="dashboard-nav-center">
             <section className="bar-dropdown">
 
-<input type="checkbox" id="chk-bar"></input>
-        <div className="hamburguesa">
-      <label for="chk-bar" class="btn-menu">
-      <i class="fa-solid fa-bars"></i>
-          </label>
+            <input type="checkbox" id="chk-bar"></input>
+                    <div className="hamburguesa">
+                        <label for="chk-bar" class="btn-menu">
+                        <i class="fa-solid fa-bars"></i>
+                            </label>
 
 
-        </div>
-        <div className="items-bar">
-            <Navbar />
-        </div>
+                    </div>
+                    <div className="items-bar">
+                        <Navbar />
+                    </div>
 
-</section>
-            <div>
-                <img src={course.banner} alt="imagen"></img>
-            </div>
+            </section>
+            
             <div className="card-deliver">
+                <div>
+                    <img src={arte}alt="imagen"></img>
+                </div>
                 {params.id}
                 <h1>Detalle de </h1>
                 <h3>{course.trabajo}</h3>

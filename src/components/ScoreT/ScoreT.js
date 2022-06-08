@@ -1,16 +1,13 @@
 import './ScoreT.css'
-import { Link } from 'react-router-dom'
 import BotonV from '../botonV/BotonV'
 import BotonI from '../botonI/BotonI'
 function ScoreT(){
     return(
     <section>
+        <section className="botones-score">
         <BotonI />
-        <div class="botons">
-            <Link to="/score-students">
                 <BotonV />
-            </Link>
-        </div>
+      
 
         <div id="search">
             <label for="buscar">
@@ -20,6 +17,7 @@ function ScoreT(){
             </a>
             </label>
         </div>
+        </section>
         <table className="table">
                 <tr className="rowprincipal-teacher"> 
                     <th class="student-teacher"> Estudiante:</th>
@@ -29,6 +27,178 @@ function ScoreT(){
                     <th class="average-teacher">Promedio:</th>
                 </tr>
                 <tr className="row-teacher"> 
+                    <td class="student"> 
+                        <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
+                        Arias Catalina
+                    </td>
+
+                       
+                    <td class="email">catalinarias@colegiosanpatricio.com</td>
+                    <td class="workshop">
+
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                    </td>
+                    
+                        <td class="score-students">
+                            <div>
+                            10
+                            </div>
+                     
+                            <div>
+                            10
+                            </div>
+                          
+                            <div>
+                            10
+                            </div>
+                            </td>
+                        <td class="average">98%</td>
+                   
+                   </tr> 
+                   <tr className="row-teacher"> 
+                    <td class="student"> 
+                        <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
+                        Arias Catalina
+                    </td>
+
+                       
+                    <td class="email">catalinarias@colegiosanpatricio.com</td>
+                    <td class="workshop">
+
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                    </td>
+                    
+                        <td class="score-students">
+                            <div>
+                            10
+                            </div>
+                     
+                            <div>
+                            10
+                            </div>
+                          
+                            <div>
+                            10
+                            </div>
+                            </td>
+                        <td class="average">98%</td>
+                   
+                   </tr> 
+                   <tr className="row-teacher"> 
+                    <td class="student"> 
+                        <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
+                        Arias Catalina
+                    </td>
+
+                       
+                    <td class="email">catalinarias@colegiosanpatricio.com</td>
+                    <td class="workshop">
+
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                    </td>
+                    
+                        <td class="score-students">
+                            <div>
+                            10
+                            </div>
+                     
+                            <div>
+                            10
+                            </div>
+                          
+                            <div>
+                            10
+                            </div>
+                            </td>
+                        <td class="average">98%</td>
+                   
+                   </tr> 
+                   <tr className="row-teacher"> 
+                    <td class="student"> 
+                        <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
+                        Arias Catalina
+                    </td>
+
+                       
+                    <td class="email">catalinarias@colegiosanpatricio.com</td>
+                    <td class="workshop">
+
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2">
+                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        </a>
+                        </div>
+                    </td>
+                    
+                        <td class="score-students">
+                            <div>
+                            10
+                            </div>
+                     
+                            <div>
+                            10
+                            </div>
+                          
+                            <div>
+                            10
+                            </div>
+                            </td>
+                        <td class="average">98%</td>
+                   
+                   </tr> 
+                   <tr className="row-teacher"> 
                     <td class="student"> 
                         <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
                         Arias Catalina

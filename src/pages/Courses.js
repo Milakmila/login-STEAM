@@ -27,13 +27,13 @@ function Courses(){
         </div>
 
     </section>
-                
-
-                <div className="courses">
+                <section>
                 <div className="c-div">
                 <h1 className="cursos-title">Mis cursos</h1>
                     <BotonI />
                     </div>  
+                <div className="courses">
+                
                 {courses.map(s=>
                     <div className="course" key={s.id}>
                    
@@ -52,7 +52,9 @@ function Courses(){
                 )};
 
                 </div>
-</div>
+                </section>
+        </div>
+
 
 
 

@@ -9,7 +9,7 @@ function Calendar2(){
     return(
         <div>
             <Header />
-            <div className="dashboard-nav-center">
+           <div className="dashboard-nav-center">
             <section className="bar-dropdown">
 
 <input type="checkbox" id="chk-bar"></input>
@@ -26,7 +26,6 @@ function Calendar2(){
 
 </section>
             <Calendar />
-            </div>
             <Footer />
         </div>
     )

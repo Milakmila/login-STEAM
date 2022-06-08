@@ -5,7 +5,7 @@ return(
     <nav>
     <ul id="desplegable">
     <li>
-    <Link to="/login-STEAM">
+    <Link to="/dashboard">
       <span><i class="fa-solid fa-house icons"></i>
       <h3>Home</h3>
       </span>

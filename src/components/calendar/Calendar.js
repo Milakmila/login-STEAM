@@ -3,6 +3,7 @@ import './Calendar.css'
 function Calendar(){
 
   const date=new Date();
+  
   const months=[
     "January",
     "February",
@@ -54,13 +55,13 @@ function Calendar(){
                     <div className="prev-date">04</div>
                     <div>1</div>
                     <div>2</div>
-                    <div className="today">3</div>
+                    <div>3</div>
                     <div>4</div>
                     <div>5</div>
                     <div>6</div>
                     <div>7</div>
                     <div>8</div>
-                    <div>9</div>
+                    <div className="today-calendar">9</div>
                     <div>10</div>
                     <div>11</div>
                     <div>12</div>
@@ -83,11 +84,11 @@ function Calendar(){
                     <div>29</div>
                     <div>30</div>
                     <div>31</div>
+                    <div className="next-date">01</div>
+                    <div className="next-date">02</div>
+                    <div className="next-date">03</div>
+                    <div className="next-date">04</div>
                     <div className="next-date">05</div>
-                    <div className="next-date">06</div>
-                    <div className="next-date">07</div>
-                    <div className="next-date">08</div>
-                    <div className="next-date">09</div>
 
 
                 </div>

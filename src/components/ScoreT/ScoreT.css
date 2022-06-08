@@ -1,3 +1,10 @@
+.botones-score{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
 
 /* PROFESORES*/
 
@@ -6,6 +13,7 @@
     grid-template-areas: 
     "student1 workshop2"
     ;
+    width: 70%;
 
 }
 .student-teacher{
@@ -33,7 +41,8 @@
     "student workshop score3"
     "email workshop score3"
     ;
-    grid-template-columns: auto auto ;
+    grid-template-columns: 50% 50% ;
+    width: 70%;
 }
 .student{
     grid-area: student;
@@ -59,6 +68,8 @@
 .workshop >div{
     border: 2px solid var(--verde-principal);
     border-radius: 20px;
+    padding: 2px 10px;
+    margin: 20px;
     
 }
 .workshop i{
@@ -69,6 +80,7 @@
 
 .score-students{
     grid-area: score3;
+    display: none;
 
 }
 
@@ -194,6 +206,7 @@
         grid-template-areas: 
         "student1 workshop2 score2"
         ;
+        width: 98%;
         
     }
     .score-teacher{
@@ -201,6 +214,11 @@
     }
     .row-teacher{
         grid-template-columns: 30% 40% 28% ;
+        width: 98%;
+    }
+    .score-students{
+        display: block;
+    
     }
 
 }

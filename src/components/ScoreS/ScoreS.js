@@ -1,17 +1,14 @@
 import './ScoreS.css'
 import '../../index.css'
-import { Link } from 'react-router-dom';
 import BotonV from '../botonV/BotonV';
 import BotonI from '../botonI/BotonI';
 function ScoreS(){
     return(
         <div className="students-calificaciones">
+       <section className="botones-score">
         <BotonI />
-        <div class="botons">
-            <Link to="/ScoreTeacher">
-             <BotonV />
-            </Link>
-        </div>
+                <BotonV />
+      
 
         <div id="search">
             <label for="buscar">
@@ -21,6 +18,7 @@ function ScoreS(){
             </a>
             </label>
         </div>
+        </section>
 
 
 
