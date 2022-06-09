@@ -21,7 +21,7 @@
     align-items: center;
 }
 .calendar{
-    width: 25rem;
+    width: 24rem;
     height: 50rem;
     background-color: rgba(69, 45, 128, 0.647);
     box-shadow: 0 0.5rem 3rem #000;
@@ -65,7 +65,7 @@
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.1rem;
-    width: calc(34.2rem/7);
+    width: calc(30.2rem/7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +80,7 @@
 .days div{
     font-size: 1.1rem;
     margin: 0.3rem;
-    width: calc(20.1rem /7);
+    width: calc(19.1rem /7);
     height: 5rem;
     display: flex;
     justify-content: center;
@@ -104,6 +104,30 @@
 
 }
 @media screen and (min-width:768px) {
+    .calendar{
+        width: 32rem;
+        height: 56rem;
+
+    }
+    .weekdays div{
+        width: calc(34.6rem/7);
+  
+        
+    }
+    .days div{
+        font-size: 1.4rem;
+        margin: 0.3rem;
+        width: calc(32.4rem /7);
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    
+}
+@media screen and (min-width:1024px) {
     .calendar{
         width: 45rem;
         height: 52rem;
