@@ -1,12 +1,17 @@
 import './ScoreT.css'
-import BotonV from '../botonV/BotonV'
 import BotonI from '../botonI/BotonI'
+import { Link } from 'react-router-dom';
 function ScoreT(){
     return(
     <section>
         <section className="botones-score">
         <BotonI />
-                <BotonV />
+        <Link to="/score">
+        <button class="btn-verde ctr">
+                    <i class="fa-solid fa-user"></i>
+                    <h5>Volver a estudiantes</h5>
+        </button>
+        </Link>
       
 
         <div id="search">

@@ -39,12 +39,7 @@ p{
     
 
 }
-.botones{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    margin: 3px;
 
-}
 .botons{
     grid-area: average;
     margin: 50px 0;
@@ -63,7 +58,7 @@ p{
 
 }
  
-.btn-green{
+.btn-verde{
     margin: 20px 0;
        
 }
@@ -105,6 +100,7 @@ table{
     grid-template-areas: 
     "activity1 score1"
     ;
+  
 }
 .activity-students{
     grid-area: activity1;
@@ -114,13 +110,16 @@ table{
     display: none;
     grid-area: date1;
 }
-.score-students{
+.score-student{
     grid-area: score1;
 }
 .de-students{
     display: none;
     grid-area: de1;
 
+}
+.ctr{
+    align-items: center;
 }
 .row{
     display: grid;
@@ -166,88 +165,6 @@ table{
     text-decoration: none;
     text-align: center;
 }
-
-/* PROFESORES*/
-
-.rowprincipal-teacher{
-    display: grid;
-    grid-template-areas: 
-    "student1 workshop2"
-    ;
-
-}
-.worskshop-three{
-    margin: 20px 0;
-}
-.student-teacher{
-    grid-area: student1;
-}
-.workshop-teacher{
-    grid-area: workshop2;
-}
-.score-teacher{
-    grid-area: score2 ;
-    display: none;
-}
-.email-teacher{
-    grid-area: email1;
-    display: none;
-}
-.average-teacher{
-    grid-area: average2;
-    display: none;
-}
-
-.row-teacher{
-    display: grid;
-    grid-template-areas: 
-    "student workshop score3"
-    "email workshop score3"
-    ;
-    grid-template-columns: auto auto ;
-}
-.student{
-    grid-area: student;
-    font-weight: 500;
-}
-.student i{
-    border-radius: 50%;
-    background-color: var(--morado);
-    color: white;
-    font-size: 16px;
-    padding: 5px;
-    margin-right: 20px;
-}
-.email{
-    grid-area: email;
-    font-weight: 300;
-    font-size: 0.8em;
-}
-.workshop{
-    grid-area: workshop;
-   
-}
-.workshop >div{
-    border: 2px solid var(--verde-principal);
-    border-radius: 20px;
-    
-}
-.workshop i{
-    color: var(--morado);
-    margin-right: 30px;
-
-}
-
-.score-students{
-    grid-area: score3;
-
-}
-
-.average{
-    grid-area: average;
-    display: none;
-}
-
 
 
 .modal{
@@ -404,20 +321,11 @@ table{
     .table{
         grid-column: 1/3;
     }
+   .date-students{
+       display: block;
+   }
 
-    /* PROFESORES*/
-    .rowprincipal-teacher{
-        grid-template-areas: 
-        "student1 workshop2 score2"
-        ;
-        
-    }
-    .score-teacher{
-        display: block;
-    }
-    .row-teacher{
-        grid-template-columns: 30% 40% 28% ;
-    }
+
     
 }
 
@@ -441,49 +349,6 @@ table{
     }
     
 
-    /* PROFESORES*/
-
-    .rowprincipal-teacher{
-        grid-template-areas: 
-        "student1 email1 workshop2 score2 average2"
-        ;
-        
-    }
-
-    .email-teacher{
-        display: block;
-    }
-    .average-teacher{
-        display: block;
-    }
-
-    .row-teacher{
-        grid-template-areas: 
-        "student email workshop score3 average"
-        ;
-        grid-template-columns:21% 20% 21% 15% 26% ;
-    }
-    .student{
-        align-self: center;
-    }
-    .email{
-        display: block;
-        font-size: small;
-        align-self: center;
-    }
-    .score{
-        margin: none;
-    }
-    .average{
-        display: block;
-    }
-    .date-students{
-        display: block;
-        text-align: right;
-    }
-    .de-students{
-        text-align: right;
-    }
 }
 
 @media screen and (min-width:1440px) {

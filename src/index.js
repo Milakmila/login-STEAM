@@ -25,7 +25,7 @@ root.render(
     <Route path='/login-STEAM/' element={<Dashboard />}></Route>
      <Route path='/dashboard' element={<Navigate replace to={"/login-STEAM"}/>}></Route>
     <Route path='/calendar' element={<Calendar />}></Route>
-    
+    <Route path='/score' element={<ScoreS />}></Route>
     <Route path='/scoreTeacher' element={<ScoreT />}></Route>
     <Route path='/recursos' element={<Recursos />}></Route>
     <Route path='*' element={<Error404 />}></Route>

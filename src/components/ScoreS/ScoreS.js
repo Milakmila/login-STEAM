@@ -2,12 +2,19 @@ import './ScoreS.css'
 import '../../index.css'
 import BotonV from '../botonV/BotonV';
 import BotonI from '../botonI/BotonI';
+import { Link } from 'react-router-dom';
 function ScoreS(){
     return(
         <div className="students-calificaciones">
        <section className="botones-score">
-        <BotonI />
-                <BotonV />
+        
+        <BotonI  className="cti"/>
+        <Link to="/scoreTeacher">
+        <button class="btn-verde ctr">
+                    <i class="fa-solid fa-user"></i>
+                    <h5>Ir a profesores Score</h5>
+        </button>
+        </Link>
       
 
         <div id="search">
@@ -27,7 +34,7 @@ function ScoreS(){
             <tr class="rowprincipal"> 
                 <th class="activity-students"> Actividad:</th>
                 <th class="date-students">Fecha de entrega:</th>
-                <th class="score-students">Puntaje:</th>
+                <th class="score-student">Puntaje:</th>
                 <th class="de-students">De:</th>
             </tr>
             <tr class="row"> 
