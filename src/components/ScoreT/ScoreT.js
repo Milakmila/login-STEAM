@@ -42,18 +42,61 @@ function ScoreT(){
                     <td class="workshop">
 
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
+                        </a>
+                        </div>
+                    </td>
+                    
+                        <td class="score-students">
+                            <div>
+                            10
+                            </div>
+                     
+                            <div>
+                            10
+                            </div>
+                          
+                            <div>
+                            10
+                            </div>
+                            </td>
+                        <td class="average">98%</td>
+                   
+                   </tr> 
+                   <tr className="row-teacher"> 
+                    <td class="student"> 
+                        <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
+                        Arias Catalina
+                    </td>
+
+                       
+                    <td class="email">catalinarias@colegiosanpatricio.com</td>
+                    <td class="workshop">
+
+                        <div className="worskhop-two">
+                        <a href="#modal2" className="work" >
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
+                        </a>
+                        </div>
+                        <div class="worskhop-two">
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                     </td>
@@ -85,61 +128,18 @@ function ScoreT(){
                     <td class="workshop">
 
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
-                        </a>
-                        </div>
-                    </td>
-                    
-                        <td class="score-students">
-                            <div>
-                            10
-                            </div>
-                     
-                            <div>
-                            10
-                            </div>
-                          
-                            <div>
-                            10
-                            </div>
-                            </td>
-                        <td class="average">98%</td>
-                   
-                   </tr> 
-                   <tr className="row-teacher"> 
-                    <td class="student"> 
-                        <a href="#modal" class="estudiantenombre"><i class="fa-solid fa-pencil"></i></a>
-                        Arias Catalina
-                    </td>
-
-                       
-                    <td class="email">catalinarias@colegiosanpatricio.com</td>
-                    <td class="workshop">
-
-                        <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
-                        </a>
-                        </div>
-                        <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
-                        </a>
-                        </div>
-                        <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                     </td>
@@ -171,18 +171,18 @@ function ScoreT(){
                     <td class="workshop">
 
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                     </td>
@@ -214,18 +214,18 @@ function ScoreT(){
                     <td class="workshop">
 
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                         <div class="worskhop-two">
-                        <a href="#modal2">
-                        <i class="fa-solid fa-paperclip"></i>Trabajo:Lorem ipsum
+                        <a href="#modal2" className="work">
+                        <i class="fa-solid fa-paperclip"></i><h5>Trabajo:Lorem ipsum</h5>
                         </a>
                         </div>
                     </td>

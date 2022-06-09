@@ -70,9 +70,16 @@
     border: 2px solid var(--verde-principal);
     border-radius: 20px;
     padding: 2px 10px;
-    margin: 20px;
+    margin:40px;
+    width: 80%;
     
 }
+.work{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .workshop i{
     color: var(--morado);
     margin-right: 30px;
@@ -221,6 +228,12 @@
         display: block;
     
     }
+   
+    .work{
+        flex-direction: row;
+   
+    }
+   
 
 
 }
@@ -261,6 +274,7 @@
 .average{
     display: block;
 }
+
 }
 
 @media screen and (min-width:1440px) {
