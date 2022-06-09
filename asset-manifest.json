@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/login-STEAM/static/css/main.1989336e.css",
-    "main.js": "/login-STEAM/static/js/main.569d8a8f.js",
+    "main.css": "/login-STEAM/static/css/main.bbb0e728.css",
+    "main.js": "/login-STEAM/static/js/main.e15b3333.js",
     "static/media/fondo-student.jpg": "/login-STEAM/static/media/fondo-student.d882412e5be97e872129.jpg",
     "static/media/trabajo1.png": "/login-STEAM/static/media/trabajo1.e5a72c162b4e49008a77.png",
     "static/media/V-tablet.png": "/login-STEAM/static/media/V-tablet.ce12bc4a9ee7d0a14abc.png",
@@ -9,11 +9,11 @@
     "static/media/V_celular.png": "/login-STEAM/static/media/V_celular.95cc84c28e5d849808c1.png",
     "static/media/V-computer.png": "/login-STEAM/static/media/V-computer.d526db8899100defad35.png",
     "index.html": "/login-STEAM/index.html",
-    "main.1989336e.css.map": "/login-STEAM/static/css/main.1989336e.css.map",
-    "main.569d8a8f.js.map": "/login-STEAM/static/js/main.569d8a8f.js.map"
+    "main.bbb0e728.css.map": "/login-STEAM/static/css/main.bbb0e728.css.map",
+    "main.e15b3333.js.map": "/login-STEAM/static/js/main.e15b3333.js.map"
   },
   "entrypoints": [
-    "static/css/main.1989336e.css",
-    "static/js/main.569d8a8f.js"
+    "static/css/main.bbb0e728.css",
+    "static/js/main.e15b3333.js"
   ]
 }
