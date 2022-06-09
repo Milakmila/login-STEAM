@@ -17,8 +17,7 @@
     align-self: center;
     justify-items: center;
     grid-template-areas:
-    "idiom"
-    "title"
+    "prin"
     "today"
     "to-do"
     "priority";
@@ -28,10 +27,12 @@
 
 }
 .PrincipalLogin h1{
-    grid-area: title;
     color: #01613B;
     text-align: center;
  
+}
+.prin{
+    grid-area: prin;
 }
 .today{
     grid-area: today;
@@ -249,7 +250,7 @@
         align-self: center;
         justify-items: center;
         grid-template-areas:
-        "idiom title"
+        "prin prin"
         " today to-do"
         " priority priority";
         gap:1em ;
@@ -260,9 +261,7 @@
     .PrincipalLogin h1{
         grid-column: 1/3;
     }
-    .btn-idiom{
-        grid-column: 1/3;
-    }
+  
     .to-do{
         grid-column: 1;
     }

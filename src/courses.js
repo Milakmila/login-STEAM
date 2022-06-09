@@ -1,7 +1,7 @@
 let courses=[
     {
         id:1,
-        banner:"./components/arte.svg" ,
+        banner:"/steam/public/img/arte.svg" ,
         image:"https://media3.giphy.com/media/l0Iy3qmrODEarmfHq/giphy.gif?cid=ecf05e47n4hxxs6u6suhkx28slu5938ro8f5eld1mpkwkzr8&rid=giphy.gif&ct=g",
         title: "Arte",
         trabajo: "titulo",

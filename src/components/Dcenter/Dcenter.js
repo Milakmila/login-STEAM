@@ -28,11 +28,13 @@ for (i = 0; i < close.length; i++) {
 
     return(
         <div className="PrincipalLogin">
-            <button onClick="hamburguesa" class="btn-idiom animated-word"> 
-                <p>ES-EN</p>
-            </button>
+            <div  className="prin">
+                <button className="btn-idiom animated-word"> 
+                    <p>ES-EN</p>
+                </button>
 
-        <h1>¡Hola, de nuevo!</h1>
+            <h1>¡Hola, de nuevo!</h1>
+            </div>
         <div class="today">
             <h2>PARA HOY:</h2>  
             <img src={hoy} alt="imagenestrabajohoy"></img> 
@@ -58,7 +60,7 @@ for (i = 0; i < close.length; i++) {
             <h2>Clases Prioritarias</h2>
             <div class="class-four">
                 <div class="class">
-                <Link to="/courses">
+                <Link to="/courses/3">
                     <img src={"https://media1.giphy.com/media/3o72EXSWcDayDDGP60/giphy.gif?cid=ecf05e47f8e353x8podx05gmq5kvjzngkzd1kvdk0t3qgx7l&rid=giphy.gif&ct=g"} alt="matematicas"/>
                     <h3>Mátematica</h3>
                 </Link>
@@ -67,7 +69,7 @@ for (i = 0; i < close.length; i++) {
 
             <div class="class-one">
                 <div class="class">
-                <Link to="/courses">
+                <Link to="/courses/2">
                     <img src={"https://media3.giphy.com/media/o65WgXSDBVY1G/giphy.gif?cid=ecf05e47aq9zgefha69plm6ov7pi2o79am1sh91m21mzknvi&rid=giphy.gif&ct=g"} alt="imagenestrabajohoy"></img> 
                     <h3>Ciencia</h3>
                 </Link>

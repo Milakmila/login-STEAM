@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header"
-import arte from "../components/arte.svg"
+
 import {Link, useParams} from "react-router-dom";
 import {getCourse} from "../courses";
 import '../components/style/modal.css'
@@ -32,7 +32,7 @@ function Course(){
             
             <div className="card-deliver">
                 <div>
-                    <img src={arte}alt="imagen"></img>
+                    <img src={course.banner}alt="imagen"></img>
                 </div>
                 {params.id}
                 <h1>Detalle de </h1>

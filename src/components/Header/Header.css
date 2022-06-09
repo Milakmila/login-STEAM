@@ -1,18 +1,15 @@
 .logo-index{
   
-  display: grid;
-  grid-template-areas:
-  "logotipo user "
-  ;
-  grid-template-columns: 45% 55%;
- 
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
  
 }
-.logo-index img{ 
-  grid-area: logotipo;
-  width: 90%;
-
+.logotipo{ 
+  width: 80%;
+ 
   }
 
 .user{
@@ -21,6 +18,7 @@ grid-template-columns: 20% 80%;
 justify-self: right;
 align-self: center;
 margin-right: 20px;
+
 
  
 }
@@ -157,11 +155,16 @@ cursor: pointer;/*Al pasar por encima muestra la manito*/
 
 }
 .logo-index{
-  grid-template-columns: 20% 80%;
+  flex-direction: row;
+  justify-content:space-around;
 }
-.logo-index img{ 
-  width: 180%;
-}
+.logotipo{ 
+  width: 38%;
+  margin: 0px 20px;
+
+ 
+  }
+
 .user{
   justify-self: right;
   align-self: center;
@@ -179,28 +182,7 @@ cursor: pointer;/*Al pasar por encima muestra la manito*/
   font-size: 1em;
 
   }
-  .logo-index{
-    grid-template-columns: 20% 80%;
-  }
-  .logo-index img{ 
-    width: 180%;
-  }
-  .user{
-    justify-self: right;
-    align-self: center;
-  
-  }
-  .user-icon{
-    font-size: 40px;
-    margin-right: 13px;
-   
-  }
-  .arrow{
-    font-size: 30px;
-  }
-  .user p{
-    font-size: 1em;
-  
+ 
     }
     .hamburguesa{
       width: 45px;
@@ -212,12 +194,13 @@ cursor: pointer;/*Al pasar por encima muestra la manito*/
     font-size: 22px;
   }
 
-}
+
 
 @media screen and (min-width:1024px) {
 
-.logo-index img{ 
-  width: 140%;
+.logotipo{ 
+  width: 25%;
+  margin: 0;
 }
 
 .items{
@@ -227,14 +210,14 @@ cursor: pointer;/*Al pasar por encima muestra la manito*/
 }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1340px) {
 .items{
   width: 8vw;
   height: 6vw;
 
 }
-.logo-index img{ 
-  width: 80%;
+.lootipo{ 
+  width: 20%;
 }
 
 

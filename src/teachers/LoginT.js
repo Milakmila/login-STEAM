@@ -1,4 +1,4 @@
-import logotipo from '../components/Header/Logotipo.png'
+import logotipo from '../components/Header/logotipo.svg'
 import '../students/LoginS.css'
 import { Link } from "react-router-dom";
 function LoginT(){

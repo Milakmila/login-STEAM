@@ -1,7 +1,7 @@
 
 import './Header.css'
 import '../Navbar/Navbar.css'
-import logotipo from './Logotipo.png'
+import logotipo from './logotipo.svg'
 import {useState} from "react";
 import { Link } from 'react-router-dom'
 
@@ -31,9 +31,8 @@ function Header() {
     <header>
         <script src="https://kit.fontawesome.com/d5d81529d3.js" crossorigin="anonymous"></script>
         <section className="logo-index">
-        <div class="logo">
-            <img src={logotipo} alt="Logotipo"></img>
-        </div>
+      
+            <img src={logotipo} alt="Logotipo" className="logotipo"></img>
 
         <div class="user">
             <i class="fa-solid fa-circle-user user user-icon"></i>

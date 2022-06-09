@@ -11,10 +11,13 @@
    
     
 }
-
+::placeholder {
+    color: white;
+ 
+  }
 /*---------LOGIN STUDENTS------------*/
 .fondo-login{
-    background-image: url(./V_celular.png);
+    background-image: url(./fondo-student.jpg);
     background-size: 100%;
 
 }
@@ -42,7 +45,7 @@
     margin-bottom: 8rem;
 }
 .logo img{
-    max-width: 180%;
+    max-width: 80%;
 
 }
 
@@ -61,7 +64,7 @@
 .form-group{
     margin: 8px;
     display: grid;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(1fr,1fr);
      
     
 }
